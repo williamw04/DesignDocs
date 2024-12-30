@@ -13,13 +13,13 @@ When all containers are finished initializing, attach the cypress shell and ther
 
 ##### Open terminal and run 'docker compose --profile ui-testing up'
 
-https://github.com/user-attachments/assets/e33cdd5c-8a33-465d-9fa8-98f846fdc205
+<video width="480" height="270" controls> <source src="uiTesting/Running_OED_Demo.mp4" type="video/mp4"> 
 
 Notes: Ensure docker application is running and after running the command 'docker compose --profile ui-testing up' the docker image and container both show up.
 
 ##### Running test
 
-https://github.com/user-attachments/assets/f0803371-551f-4ec5-90c8-9c2250d1f73b
+<video width="480" height="270" controls> <source src="uiTesting/Running_Test_Demo.mp4" type="video/mp4"> 
 
 Command to run test: 'npx cypress run'
 To find more cypress commands related to running cypress.
@@ -31,7 +31,7 @@ Currently when we want to look at a UI element we must manually navigate the pag
 
 # Testing Scenarios:
 
-https://github.com/user-attachments/assets/e8bfc324-1c83-4470-b0da-3620d416b995
+<video width="480" height="270" controls> <source src="uiTesting/Test_Scenario_Demo.mp4" type="video/mp4"> 
 
 
 Currently we test specific elements using the elements' css selector. In the video I first open the inspect element tool and inspect element the menu bar to pinpoint it's location in the html. In this case I recursively open the element's child to see it's children. This is
